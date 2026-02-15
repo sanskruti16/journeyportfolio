@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f0f0f;
+  color: white;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+#scroll-container {
+  height: 600vh; /* controls scroll length */
+}
+
+.scene {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.scene h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.scene p {
+  opacity: 0.7;
+}
+
+/* Visual placeholders */
+.scene-1 { background: linear-gradient(#111, #222); }
+.scene-2 { background: linear-gradient(#222, #333); }
+.scene-3 { background: linear-gradient(#333, #444); }
+.scene-4 { background: linear-gradient(#444, #555); }
+.scene-5 { background: linear-gradient(#555, #666); }
+.scene-6 { background: #000; }
